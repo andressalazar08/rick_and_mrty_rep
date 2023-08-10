@@ -7,6 +7,7 @@ import characters, { Rick } from './data.js';
 function App() {
    return (
       <div className='App'>
+         <h3>Aplicación Rick and Morty</h3>
          <SearchBar onSearch={(characterID) => window.alert(characterID)} />
          <Cards characters={characters} />
          <Card
